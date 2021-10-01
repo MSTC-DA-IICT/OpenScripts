@@ -19,6 +19,12 @@ The Project Maintainers will be glad to help you out if you are stuck during the
 - [Intoduction to github Lab](https://lab.github.com/githubtraining/introduction-to-github)
 - [Contributing to Open Source for the first time](https://www.youtube.com/watch?v=c6b6B9oN4Vg)
 
+## Things to take care of when making a PR
+
+- Make sure you put your files in a folder with a name descriptive of the issue you are resolving.
+- Add a README.md describing the working of your files.
+- Reference the issue # you are resolving in your PR.
+
 ## Contibute to this project 
 
 You can follow along the workflow given below to contribute to this project:
