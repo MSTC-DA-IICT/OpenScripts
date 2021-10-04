@@ -1,0 +1,13 @@
+Required python packages to run this scripts are listed below :
+- smtplib
+- decouple
+- email
+- pandas
+- re
+
+What is use of them ?
+smtplib : for establishing SMTP connection
+decouple : to use virtual environment variables
+email : for formatting email which sender want to send
+pandas : to read the data in excel file
+re : to match the given email with regular expression of email

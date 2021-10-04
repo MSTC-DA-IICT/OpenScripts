@@ -1,5 +1,4 @@
 
-from email import message
 import smtplib
 
 from decouple import config
