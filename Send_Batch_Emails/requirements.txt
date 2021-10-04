@@ -5,7 +5,7 @@ Required python packages to run this scripts are listed below :
 - pandas
 - re
 
-What is use of them ?
+What is use of each ?
 smtplib : for establishing SMTP connection
 decouple : to use virtual environment variables
 email : for formatting email which sender want to send
