@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import glob
 import pathlib
 
-current_folder_path = str(pathlib.Path().resolve())
+current_folder_path = str(pathlib.Path(__file__).parent.resolve())
 
 # take the path of the folder
 path = input("Enter the full path of folder which contains only images\n")
@@ -22,7 +22,7 @@ for f in glob.iglob(path+"\*"):
     
     draw = ImageDraw.Draw(im)
     
-    font = ImageFont.truetype(current_folder_path+'/Image_Watermarker/_arial.ttf', 36)
+    font = ImageFont.truetype(current_folder_path+'/_arial.ttf', 36)
     textwidth, textheight = draw.textsize(watermark_txt, font)
 
     # calculate the x,y coordinates of the text
