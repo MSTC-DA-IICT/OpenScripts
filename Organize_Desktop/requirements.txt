@@ -1,0 +1,9 @@
+Module USED:
+SHUTIL
+OS
+
+Commands to install them:
+pip install pytest-shutil
+
+Note:
+OS is pythons's standard library. So there's no need to download it.
