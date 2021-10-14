@@ -58,4 +58,4 @@ These are the points or parts of the problem I took time to get hold of.
 Assumed: Indexing from 0-8 => 9 indexs total
 1. Ending the program when reached (8,9) cell. When we filled (8,8) cell, the problem is done however we only know we have completed the traversal only with condition if(row==8 and col == 9).
 
-2. The fact that we have to fill 8 columns, in order to go the next row we apply condition if(column == 8), then move to next row and start from column 0.
+2. The fact that we have to fill 8 columns, in order to go the next row we apply condition if(column == 9), then move to next row and start from column 0.
