@@ -10,9 +10,9 @@ Firefox_profile_dir = r'ROOT DIR'
 def setup_schedule():
     # time should be in HH:MM 24 hours formate
     scheduleMeeting("tuesday", "21:54", "21:55",
-                    "https://meet.google.com/thx-hsyg-qmp")
+                    "meet link 1")
     scheduleMeeting("tuesday", "21:43", "21:42",
-                    "https://meet.google.com/pmg-uchn-kdv")
+                    "meet link 2")
 
 
 def scheduleMeeting(day, startHour, endHour, link):
